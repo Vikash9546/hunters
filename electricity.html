@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renewable Energy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #065261;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            cursor: pointer;
+        }
+
+        nav ul li:hover {
+            text-decoration: underline;
+        }
+
+        .parallax {
+            position: relative;
+            background: url('DALL·E 2024-12-09 14.28.23 - A dark-themed digital illustration of a photovoltaic cell, featuring intricate details of solar panel textures and grid patterns. The background is a .webp') no-repeat center center / cover;
+            height: 60vh;
+           /* display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;*/
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation: zoomIn 5s ease-in-out;
+        }
+
+        .parallax h2 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .parallax::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .parallax h2 {
+            position: relative;
+            z-index: 1;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            padding: 3rem;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            color: black;
+        }
+
+        .card p {
+            font-size: 1rem;
+            padding: 0 1rem;
+            margin-bottom: 1rem;
+            color: black;
+        }
+
+        footer {
+            background-color: #2ebccc;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .parallax h2 {
+                font-size: 2rem;
+            }
+
+            .card {
+                max-width: 100%;
+            }
+        }
+        a:link {
+  color: rgb(109, 209, 204);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(109, 209, 204);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 80, 246);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+    </style>
+</head>
+
+<body style="background-color: rgb(38, 37, 37);">
+    <header>
+        <h1>Hunters</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">About</a></li>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<section class="parallax">
+    <h2>Electricity through Sun</h2>
+</section>
+    <div style="display: flex;">
+    <div style="width: 70%;height: auto; padding-left: 7%;color: white;">
+    <h2 style="border-bottom: 2px solid rgb(181, 255, 246);">Photovoltaics</h2>
+    <p>A photovoltaic (PV) cell, commonly called a solar cell, is a nonmechanical device that converts sunlight directly into electricity. Some PV cells can convert artificial light into electricity.
+
+<p>    </p>
+<p>Sunlight is composed of photons, or particles of solar energy. These photons contain varying amounts of energy that correspond to the different wavelengths of the solar spectrum.</p>
+<p></p>   
+<p>A PV cell is made of semiconductor material. When photons strike a PV cell, they will reflect off the cell, pass through the cell, or be absorbed by the semiconductor material. Only the photons that are absorbed provide energy to generate electricity. When the semiconductor material absorbs enough sunlight (solar energy), electrons are dislodged from the material's atoms. Special treatment of the PV cell's surface during manufacturing makes the front surface of the cell more receptive to the dislodged, or free, electrons so that the electrons naturally migrate to the surface of the cell.</p>
+<p></p>
+<p></p>
+<h2>The flow of electricity in a solar cell</h2>
+<p>The movement of electrons, which all carry a negative charge, toward the front surface of the PV cell creates an imbalance of electrical charge between the cell's front and back surfaces. This imbalance, in turn, creates a voltage potential similar to the negative and positive terminals of a battery. Electrical conductors on the PV cell absorb the electrons. When the conductors are connected in an electrical circuit to an external load, such as a battery, electricity flows through the circuit.</p>
+<p></p>
+<p></p>
+<div style="border-top: 2px solid rgb(181, 255, 246);">
+<div style="background-color: white;width: 550px;border: 1px solid white;margin-top: 2%;"><img src="photovoltaic-cell.png" alt="photovoltaic"></div></div>
+
+
+</p></div> <div style="height: 230px;width: auto;margin-top: 15px;margin-left:4%;padding-left: 2%;color: white;border-left: 2px solid #065261;">
+        
+        <h3>In Solar Energy:</h3>
+        <p><a href="solar.html">Solar Energy</a></p>
+        <p><a href="electricity.html">Electricity through Sun</a></p>
+        <p><a href="solarin india.html">Solar Energy in India</a></p>
+        <p><a href="thermal.html">Solar thermal power plants</a></p>
+        <p><a href="enviroment.html">Solar energy and the environment</a></p>
+    </div>
+    </div>
+
+    <div style="width: 70%;height: auto; padding-left: 7%;color: white;">
+
+<h2 style="border-bottom: 2px solid rgb(181, 255, 246);">PV cells, panels, and arrays</h2>
+<p>The PV cell is the basic building block of a PV system. Individual cells can vary from 0.5 inches to about 4.0 inches across. However, one PV cell can only produce 1 or 2 Watts, which is only enough electricity for small uses, such as powering calculators or wristwatches.
+
+</p>
+<p></p>
+<p>PV cells are electrically connected in a packaged, weather-tight PV panel (sometimes called a module). PV panels vary in size and in the amount of electricity they can produce. Electricity-generating capacity for PV panels increases with the number of cells in the panel or in the surface area of the panel. PV panels can be connected in groups to form a PV array. A PV array can be composed of as few as two PV panels to hundreds of PV panels. The number of PV panels connected in a PV array determines the amount of electricity the array can generate.</p>
+<p></p>
+<p>PV cells generate direct current (DC) electricity. DC electricity can be used to charge batteries that power devices that use DC electricity. Nearly all electricity is supplied as alternating current (AC) in electricity transmission and distribution systems. Devices called inverters are used on PV panels or in PV arrays to convert the DC electricity to AC electricity.</p>
+<p></p>
+<p>PV cells and panels produce the most electricity when they are directly facing the sun. PV panels and arrays can use tracking systems to keep the panels facing the sun, but these systems are expensive. Most PV systems have panels in a fixed position that are usually facing directly south in the northern hemisphere—or directly north in the southern hemisphere—at an angle that optimizes the physical and economic performance of the system.</p>
+<img src="images.jpeg" alt="solar pannel">
+<p></p>
+<p></p>
+<h2 style="border-bottom: 2px solid rgb(181, 255, 246);">PV system efficiency</h2>
+<p></p>
+<p>The efficiency that PV cells convert sunlight to electricity varies by the type of semiconductor material and PV cell technology. The efficiency of commercially available PV panels averaged less than 10% in the mid-1980s, increased to around 15% by 2015, and is now approaching 25% for state-of-the art modules. Experimental PV cells and PV cells for niche markets, such as space satellites, have achieved nearly 50% efficiency.</p>
+<p></p>
+<p></p>
+<h2>PV system applications</h2>
+<p></p>
+<p>When the sun is shining, PV systems can generate electricity to directly power devices such as water pumps or supply electric power grids. PV systems can also charge a battery to provide electricity when the sun is not shining for individual devices, single homes, or electric power grids.</p>
+<p></p>
+<p>Some advantages of PV systems are:</p>
+<ul>
+    <li>PV systems can supply electricity in locations where electricity distribution systems (power lines) do not exist, and they can also supply electricity to electric power grids.</li>
+    <li>PV arrays can be installed quickly.</li>
+    <li>The environmental effects of PV systems located on buildings are minimal.</li>
+</ul>
+<p></p>
+<p></p>
+<h2 style="border-bottom: 2px solid rgb(181, 255, 246);">History of PV systems</h2>
+<p></p>
+<p>The first practical PV cell was developed in 1954 by Bell Telephone researchers. Beginning in the late 1950s, PV cells were used to power U.S. space satellites. By the late 1970s, PV panels were providing electricity in remote, or off-grid, locations that did not have electric power lines. Since 2004, most PV systems in the United States are grid-connected—they are connected to an electric power grid. These PV systems are installed on or near homes and buildings and at utility-scale power plants that have at least 1 megawatt of electric-generation capacity. Technological advances, lower costs for PV systems, and various financial incentives and government policies, especially tax credits and net metering, have helped to greatly expand PV use since the mid-1990s. Millions of grid-connected PV systems are now installed in the United States.
+</p>
+<p></p>
+<p>Electricity generation at utility-scale PV power plants increased from 6 million kilowatthours (kWh) (or 6,000 megawatthours [MWh]) in 2004 to about 162 billion kWh (or 161,651,000 MWh) in 2023. About 74 billion kWh (or 73,619,000 MWh) were generated by small-scale, grid-connected PV systems in 2023, up from 11 billion kWh (or 11,233,000 MWh) in 2014. Small-scale PV systems have less than 1,000 kilowatts of electricity-generation capacity. Most small-scale PV systems are located on buildings and are sometimes called rooftop PV systems.</p>
+
+
+
+
+</div>
+    <footer>
+        <p>&copy; 2024 Hunters. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
